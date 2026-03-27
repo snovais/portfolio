@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sérgio Novais | Computer Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">SÉRGIO<span>NOVAIS</span></div>
+        <div class="nav-links">
+            <a href="#perfil">Competências</a>
+            <a href="#github">Projetos</a>
+            <a href="mailto:o.sergionovais@gmail.com">Contato</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Computer Engineer & AI Specialist</h1>
+            <p>Desenvolvimento em Deep Learning, MLOps e Segurança Inteligente.</p>
+            <div class="hero-social">
+                <a href="https://linkedin.com/in/sergio-novais/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/snovais" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="perfil" class="container">
+        <div class="secao-header">
+            <h2>Core Competencies</h2>
+            <div class="linha-decorativa"></div>
+        </div>
+        
+        <div class="slider-container">
+            <div class="card-tecnico">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Segurança da Informação</h3>
+                <p>Implementação de sistemas de detecção de intrusão e ameaças baseados em IA.</p>
+            </div>
+            <div class="card-tecnico">
+                <i class="fas fa-brain"></i>
+                <h3>Deep Learning</h3>
+                <p>Arquiteturas de CNNs e modelos generativos para visão computacional.</p>
+            </div>
+            <div class="card-tecnico">
+                <i class="fas fa-server"></i>
+                <h3>MLOps</h3>
+                <p>Infraestrutura CUDA, Docker e automação de pipelines de dados.</p>
+            </div>
+            <div class="card-tecnico">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Docência</h3>
+                <p>Professor de Lógica e Engenharia de Software no sistema ETEC.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="container">
+        <div class="secao-header">
+            <div>
+                <h2>Repositórios GitHub</h2>
+                <div class="linha-decorativa"></div>
+            </div>
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" id="repo-search" placeholder="Buscar repositórios...">
+            </div>
+        </div>
+        
+        <div class="slider-container" id="grid-projetos">
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sérgio Novais | Amparo, SP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
