@@ -65,3 +65,44 @@ body { background: var(--bg); color: var(--text); line-height: 1.5; overflow-x: 
 footer { text-align: center; padding: 4rem; border-top: 1px solid var(--border); font-size: 0.8rem; opacity: 0.6; }
 
 @media (max-width: 768px) { .card-tecnico, .repo-card { flex: 0 0 85vw; } }
+
+/* Estilo da Seção de Publicações */
+.publicacao-destaque {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2.5rem;
+    transition: 0.3s;
+}
+.publicacao-destaque:hover {
+    border-color: var(--primary);
+}
+.tag-editora {
+    color: var(--primary);
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.publicacao-destaque h3 {
+    color: white;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+.btn-pub {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: white;
+    background: var(--primary);
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+.btn-pub:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}

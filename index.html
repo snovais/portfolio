@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sérgio Novais | Computer Engineer</title>
+    
     <link rel="icon" type="image/png" href="ponteiro.png">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -17,6 +19,7 @@
         </a>
         <div class="nav-links">
             <a href="#perfil">Competências</a>
+            <a href="#publicacoes">Publicações</a>
             <a href="#github">Projetos</a>
             <a href="mailto:o.sergionovais@gmail.com">Contato</a>
         </div>
@@ -25,10 +28,10 @@
     <header class="hero">
         <div class="hero-content">
             <h1>Computer Engineer & AI Specialist</h1>
-            <p>Especialista em Deep Learning, MLOps e Segurança Cibernética com IA.</p>
+            <p>Especialista em Deep Learning, MLOps e Processamento de Imagens Médicas.</p>
             <div class="hero-social">
                 <a href="https://linkedin.com/in/sergio-novais/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/snovais" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/sernovais" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </header>
@@ -38,27 +41,43 @@
             <h2>Core Competencies</h2>
             <div class="linha-decorativa"></div>
         </div>
-        
         <div class="slider-container">
+            <div class="card-tecnico">
+                <i class="fas fa-brain"></i>
+                <h3>Deep Learning</h3>
+                <p>Aplicação de redes neurais em imagens de ressonância magnética (fMRI) e visão computacional.</p>
+            </div>
             <div class="card-tecnico">
                 <i class="fas fa-shield-alt"></i>
                 <h3>Segurança da Informação</h3>
                 <p>Detecção de ameaças e intrusões utilizando modelos de Inteligência Artificial.</p>
             </div>
             <div class="card-tecnico">
-                <i class="fas fa-brain"></i>
-                <h3>Deep Learning</h3>
-                <p>Arquiteturas de CNNs e modelos generativos para visão computacional.</p>
-            </div>
-            <div class="card-tecnico">
                 <i class="fas fa-server"></i>
                 <h3>MLOps</h3>
-                <p>Orquestração de containers, CUDA e automação de pipelines de produção.</p>
+                <p>Orquestração de containers, infraestrutura CUDA e pipelines de produção.</p>
             </div>
             <div class="card-tecnico">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <h3>Docência</h3>
                 <p>Ensino técnico de engenharia de software e lógica de programação na ETEC.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="publicacoes" class="container">
+        <div class="secao-header">
+            <h2>Publicações Científicas</h2>
+            <div class="linha-decorativa"></div>
+        </div>
+        <div class="publicacao-destaque">
+            <div class="pub-content">
+                <span class="tag-editora">Atena Editora</span>
+                <h3>Imagens de Ressonância Magnética Funcional em Estado de Repouso Aplicadas ao Estudo da Dor Crônica utilizando Deep Learning</h3>
+                <p>Capítulo de livro detalhando o uso de inteligência artificial avançada para análise de dados neurocientíficos e diagnósticos de dor crônica.</p>
+                <a href="https://atenaeditora.com.br/catalogo/post/imagens-de-ressonancia-magnetica-funcional-em-estado-de-repouso-aplicadas-a-estudo-da-dor-cronica-utilizando-deep" target="_blank" class="btn-pub">
+                    Acessar Publicação <i class="fas fa-external-link-alt"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -74,9 +93,7 @@
                 <input type="text" id="repo-search" placeholder="Buscar repositório...">
             </div>
         </div>
-        
-        <div class="slider-container" id="grid-projetos">
-            </div>
+        <div class="slider-container" id="grid-projetos"></div>
     </section>
 
     <footer>
